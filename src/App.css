@@ -1,0 +1,96 @@
+.app {
+  width: 510px;
+  margin: 6px auto;
+  padding: 0 32px 28px;
+  background: #fff;
+}
+
+h1 {
+  margin: 0 0 26px;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #000;
+}
+
+h2 {
+  margin: 26px 0 20px;
+  font-size: 31px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.contact-form {
+  width: 420px;
+  padding: 10px;
+  border: 1px solid #222;
+}
+
+.contact-form label,
+.filter {
+  display: block;
+  color: #000;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.contact-form label:not(:last-of-type) {
+  margin-bottom: 18px;
+}
+
+.contact-form input,
+.filter input {
+  display: block;
+  width: 170px;
+  height: 24px;
+  margin-top: 4px;
+  padding: 2px 4px;
+  border: 1px solid #d6d6d6;
+  color: #000;
+  font: inherit;
+  font-size: 15px;
+}
+
+.contact-form button {
+  margin-top: 24px;
+}
+
+button {
+  padding: 2px 8px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  background: #fff;
+  color: #000;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f1f1f1;
+}
+
+.filter input {
+  margin-bottom: 16px;
+}
+
+.contact-list {
+  margin: 0;
+  padding-left: 50px;
+  color: #000;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.contact-list li {
+  padding-left: 2px;
+}
+
+.contact-list li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.contact-list button {
+  margin-left: 10px;
+  vertical-align: middle;
+}
